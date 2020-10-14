@@ -1,7 +1,7 @@
 #!/bin/bash +x
 echo "----FirstName Validation----"
 shopt -s extglob
-read -p "Enter First Name: " name
+read -p "Enter Last Name: " name
 
 val='^([A-Z]{1})+[a-z]{2,}$'
 
