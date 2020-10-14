@@ -10,5 +10,5 @@ if [[ $no =~ $val ]]
 then
 	echo "$no  is valid Name."
 else
-	echo "$no  is invalid pls Enter correct name"
+	echo "$no  is invalid pls Enter mobile no"
 fi
