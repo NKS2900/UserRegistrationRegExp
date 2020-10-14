@@ -1,5 +1,5 @@
 #!/bin/bash +x
-echo "----FirstName Validation----"
+echo "----Last Name Validation----"
 shopt -s extglob
 read -p "Enter Last Name: " name
 
