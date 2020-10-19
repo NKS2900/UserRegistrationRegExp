@@ -3,7 +3,7 @@ echo "----Password Validation----"
 shopt -s extglob
 read -p "Enter Password: " pass
 
-val='^[[A-Z]{1}+[A-Za-z0-9]{7,}$'
+val='^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@$#%*+]).{8,}$'
 
 if [[ $pass =~ $val ]]
 then
